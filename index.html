@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="donation.js"></script>
+    <script>
+      // onload
+      window.addEventListener("load", renderOrganiations);
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Covid Donation Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column-quote">
+        <p class="quote">Pray for India, Pray for Humanity.</p>
+      </div>
+      <header>Covid Donation Page - India</header>
+
+      <main>
+        <h3>List of Organisaztions fighting with Corona.</h3>
+        <cite>
+          These links will redirect you to their respective page to make
+          donation.
+        </cite>
+        <div>
+          <table class="striped">
+            <thead>
+              <tr>
+                <th>Fund</th>
+                <th>Supporting</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody id="donation-pages"></tbody>
+          </table>
+        </div>
+      </main>
+      <footer class="center">
+        <div class="footer-copyright">
+          <div>
+            Made with <span style="color: red">❤️</span> by
+            <a href="https://schadokar.dev">schadokar</a>
+          </div>
+          <div>
+            Ingredients <span> 🧪</span> html, css and
+            <a href="https://materializecss.com/">material ui</a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/day-to-day-coding/html-cryptocurrency-rates/"
+              ><i class="material-icons">developer_mode</i></a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

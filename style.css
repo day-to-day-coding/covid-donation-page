@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  color: black;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-size: xx-large;
+  margin-bottom: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+input {
+  font-family: "Pacifico", cursive;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+table {
+  margin-top: 2.5rem;
+  border: 1px solid #000;
+}
+
+.container {
+  margin-top: 1.5rem;
+}
+.vertical-divider {
+  border-left: 1px solid gray;
+}
+
+.page-footer .footer-copyright {
+  background-color: white;
+}
+
+.column-quote {
+  width: 90%;
+  height: 475px;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 20px solid #fede00;
+}
+
+.quote {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
